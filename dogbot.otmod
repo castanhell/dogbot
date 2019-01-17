@@ -1,0 +1,9 @@
+Module
+  name: ludogbot 
+  description: A heuristic bot for hunting and training
+  author: LuDog
+  website: ludog
+  sandboxed: true
+  scripts: [ dogbot.lua ]
+  @onLoad: init()
+  @onUnload: terminate()
